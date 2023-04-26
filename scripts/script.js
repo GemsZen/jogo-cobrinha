@@ -28,7 +28,7 @@ function createSnake() {
 }
 
 function createFood() {
-    context.fillStyle = "red";
+    context.fillStyle = "orange";
     context.fillRect(food.x, food.y, box, box);
 }
 
